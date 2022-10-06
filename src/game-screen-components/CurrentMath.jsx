@@ -8,8 +8,8 @@ function CurrentMath() {
     const [numbers3, setNumbers3] = useState([10,5])
     const [numbers4, setNumbers4] = useState([15])
   return (
-    <>
-      <div className='d-flex justify-content-evenly mt-3'>
+    <Card className='mt-3' style={{ border:'2px lightgrey solid'}}>
+      <Card.Body className='d-flex justify-content-evenly'>
       {numbers.map((number) => {
         return (
           <Card style={{ width:'4rem', border:'2px lightgrey solid'}}>
@@ -17,8 +17,8 @@ function CurrentMath() {
               </Card>  
           )
         })}
-      </div>
-      <div className='d-flex justify-content-evenly mt-3'>
+      </Card.Body>
+      <Card.Body className='d-flex justify-content-evenly'>
           {numbers2.map((number) => {
             return (
             <Card style={{ width:'4rem', border:'2px lightgrey solid'}}>
@@ -26,8 +26,8 @@ function CurrentMath() {
             </Card>  
           )
         })}
-      </div>
-      <div className='d-flex justify-content-evenly mt-3'>
+      </Card.Body>
+      <Card.Body className='d-flex justify-content-evenly'>
           {numbers3.map((number) => {
             return (
             <Card style={{ width:'4rem', border:'2px lightgrey solid'}}>
@@ -35,18 +35,18 @@ function CurrentMath() {
             </Card>  
           )
         })}
-      </div>
-      <div className='d-flex justify-content-evenly mt-3'>
+      </Card.Body>
+      <Card.Body className='d-flex justify-content-evenly'>
           {numbers4.map((number) => {
             return (
             <Card style={{ width:'4rem', border:'2px lightgrey solid', backgroundColor:'lightgreen'}}>
-                <Card.Body className='d-flex justify-content-center'>{number}</Card.Body>
+                <Card.Body className='d-flex justify-content-center '>{number}</Card.Body>
             </Card>  
           )
         })}
-      </div>
+      </Card.Body>
 
-    </>
+    </Card>
   )
 }
 
