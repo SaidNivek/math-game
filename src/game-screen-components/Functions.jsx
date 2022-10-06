@@ -1,8 +1,7 @@
 import React from 'react'
-import Card from 'react-bootstrap/Card'
-import AddFunction from './AddFunction'
-import SubtractFunction from './SubtractFunction'
-import SplitFunction from './SplitFunction'
+import AddFunction from './functions/AddFunction'
+import SubtractFunction from './functions/SubtractFunction'
+import SplitFunction from './functions/SplitFunction'
 
 function Functions() {
   return (
