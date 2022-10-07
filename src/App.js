@@ -1,6 +1,7 @@
 import './App.css';
-import Header from "./components/header/Header"
-import Boxes from './components/boxes/Boxes';
+
+import Header from "./components/Start"
+import Boxes from './components/Boxes';
 
 function App() {
   return (
