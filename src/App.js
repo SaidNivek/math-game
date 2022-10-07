@@ -1,13 +1,13 @@
 import './App.css';
 
 import Header from "./components/Start"
-import Boxes from './components/Boxes';
+import Game from './components/Game';
 
 function App() {
   return (
     <>
       <Header />
-      <Boxes />
+      <Game />
     </>
   );
 }

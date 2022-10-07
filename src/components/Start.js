@@ -8,9 +8,7 @@ const Header = () => {
       <p>
         Click the Button Below to Start the Game!
       </p>
-      <Link to="/boxes"><button>
-        Go to
-        </button></Link>
+
     </div>
 
   )
