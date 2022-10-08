@@ -12,7 +12,7 @@ function CurrentMath() {
       <Card.Body className='d-flex justify-content-evenly'>
       {numbers.map((number) => {
         return (
-          <Card style={{ width:'4rem', border:'2px lightgrey solid'}}>
+          <Card className='grey-box'>
                   <Card.Body className='d-flex justify-content-center'>{number}</Card.Body>
               </Card>  
           )
@@ -21,7 +21,7 @@ function CurrentMath() {
       <Card.Body className='d-flex justify-content-evenly'>
           {numbers2.map((number) => {
             return (
-            <Card style={{ width:'4rem', border:'2px lightgrey solid'}}>
+            <Card className='grey-box'>
                 <Card.Body className='d-flex justify-content-center'>{number}</Card.Body>
             </Card>  
           )
@@ -30,7 +30,7 @@ function CurrentMath() {
       <Card.Body className='d-flex justify-content-evenly'>
           {numbers3.map((number) => {
             return (
-            <Card style={{ width:'4rem', border:'2px lightgrey solid'}}>
+            <Card className='grey-box'>
                 <Card.Body className='d-flex justify-content-center'>{number}</Card.Body>
             </Card>  
           )
@@ -45,7 +45,6 @@ function CurrentMath() {
           )
         })}
       </Card.Body>
-
     </Card>
   )
 }

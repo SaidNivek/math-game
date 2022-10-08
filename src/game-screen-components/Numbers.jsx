@@ -9,7 +9,7 @@ function Numbers() {
     <div className='d-flex justify-content-evenly mt-3'>
     {numbers.map((number) => {
         return (
-            <Card style={{ width:'4rem', border:'2px lightgrey solid'}}>
+            <Card className='grey-box'>
                 <Card.Body className='d-flex justify-content-center'>{number}</Card.Body>
             </Card>  
         )
