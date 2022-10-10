@@ -1,25 +1,26 @@
 import './App.css';
 
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
 
-import MyButton from './components/MyButton';
-import Start from "./pages/Start"
 import Game from './pages/Game';
+import Start from "./pages/Start"
+
 
 function App() {
+ 
   return (
-    <div className='app'>
+    <div className='App'>
+        <>
       <Router>
-        <MyButton to="game" />
-
         <Routes>
-          <Route path="/" element={<Start />} />
           <Route path="/game" element={<Game />} />
+          <Route path="/" element={<Start />} />
         </Routes>
       </Router>
-
+        </>
     </div>
   );
 }
+
 
 export default App;
